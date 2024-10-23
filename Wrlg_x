@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404</title>
+    <style>
+        body {
+            background-color: black; /* لون خلفية أخضر يميل للأزرق يذكر بلون خلفيات Windows 98 */
+            background-image: url('https://i.imgur.com/4Aqho1U.png'); /* صورة خلفية تشبه خلفيات Windows 98 */
+            background-repeat: repeat; /* تكرار الصورة لتغطية الخلفية */
+            color: green;
+            font-family: 'Comic Sans MS', sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        h1 {
+            color: #8D38C9;
+            text-shadow: 2px 2px 5px orange;
+            margin-top: 20px;
+        }
+        .container {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: nowrap;
+            margin: 20px 0;
+        }
+        .gif, .text {
+            margin: 0 10px;
+        }
+        img {
+            width: 150px;
+            height: auto;
+        }
+        .text {
+            font-size: 30px;
+            color: green;
+        }
+        .window {
+            background-color: #e0e0e0; /* لون خلفية نافذة Windows XP */
+            border: 2px solid #000; /* إطار نافذة */
+            border-radius: 3px; /* زوايا دائرية خفيفة */
+            width: 400px;
+            padding: 10px;
+            margin-top: 20px; /* مسافة بين نافذة الصوت والعناصر الأخرى */
+            position: relative;
+            display: inline-block;
+            text-align: center;
+        }
+        .window .title-bar {
+            background-color: blue; /* لون شريط العنوان */
+            color: #fff; /* لون نص شريط العنوان */
+            padding: 5px;
+            font-weight: bold;
+            text-align: center;
+            border-bottom: 2px solid #000;
+            position: relative;
+        }
+        .window .title-bar .buttons {
+            position: absolute;
+            top: 5px;
+            right: 5px;
+            display: flex;
+        }
+        .window .title-bar .buttons div {
+            width: 15px;
+            height: 15px;
+            margin-left: 2px;
+            border: 1px solid #000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+        }
+        .window .title-bar .buttons .close {
+            background-color: #ff0000; /* لون زر الإغلاق */
+        }
+        .window .title-bar .buttons .maximize {
+            background-color: #00ff00; /* لون زر التكبير */
+        }
+        .window .controls {
+            margin-top: 30px;
+        }
+        .window .controls button {
+            background-color: #000; /* لون خلفية أزرار التحكم */
+            color: #fff; /* لون نص الأزرار */
+            border: 1px solid #000; /* إطار الأزرار */
+            border-radius: 3px; /* زوايا دائرية للأزرار */
+            padding: 5px 10px; /* مساحة داخل الأزرار */
+            margin: 2px; /* مسافة بين الأزرار */
+            cursor: pointer; /* تغيير شكل المؤشر عند المرور فوق الأزرار */
+        }
+        .window .controls button:hover {
+            background-color: #333; /* تغيير لون الخلفية عند التمرير فوق الأزرار */
+        }
+    </style>
+</head>
+<body>
+
+    <h1>🔥mohcine🔥</h1>
+
+    <div class="container">
+        <div class="gif">
+            <img src="https://i.postimg.cc/LJKZGFHK/your-gif-name.gif" alt="GIF جديد">
+        </div>
+
+        <div class="text">
+            “wrlg_x”
+        </div>
+
+        <div class="gif">
+            <img src="https://i.postimg.cc/LJKZGFHK/your-gif-name.gif" alt="GIF جديد">
+        </div>
+    </div>
+
+    <!-- نافذة تحكم قديمة الطراز -->
+    <div class="window">
+        <div class="title-bar">
+            <div class="buttons">
+                <div class="close"></div>
+                <div class="maximize"></div>
+            </div>
+            مشغل الصوت
+        </div>
+        <div class="controls">
+            <button onclick="document.getElementById('audio').play()">play</button>
+            <button onclick="document.getElementById('audio').pause()">stop</button>
+            <button onclick="document.getElementById('audio').currentTime -= 10">go back 10sec</button>
+            <button onclick="document.getElementById('audio').currentTime += 10">Go forward 10sec</button>
+        </div>
+    </div>
+<img src="https://i.postimg.cc/Wz1xCZ1b/maniac-laughing-1.gif" alt="Maniac Laughing GIF">
+<img src="https://i.postimg.cc/x8dT5crL/IMG-20240914-194852.jpg" alt="صورة عادية">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <!-- إذا كان لديك ملف CSS خارجي، تأكد من أنه مرفق -->
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .animated-gif {
+            position: fixed;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 1000;
+        }
+    </style>
+</head>
+<body>
+    <!-- محتوى موقعك هنا -->
+    
+    <!-- إضافة صورة GIF في أسفل الشاشة -->
+    <img src="https://i.postimg.cc/WbwczsQv/windows-xp-loading.gif" alt="Loading GIF" class="animated-gif">
+</body>
+</html>
+
+
+    <!-- إضافة عنصر الصوت -->
+    <audio id="audio" src="https://www.dropbox.com/scl/fi/kp1qv7yj6xfsx8x9l7n4f/03.-A-Type-Music-Korobeiniki.mp3?rlkey=r0nbhrj74qu9byyaku293wg1r&st=16ntriod&dl=1"></audio>
+
+   <a href="https://www.instagram.com/wrlg_x/profilecard/?igsh=ZHhuOWx5dDlsbWI5" target="_blank">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="إنستغرام" style="width: 20px; height: 20px; vertical-align: middle;">
+    instagram
+</a> 
+</body>
+</html>
